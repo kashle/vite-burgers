@@ -1,0 +1,23 @@
+#brandimg {
+    width: 100px;
+    height: 50px;
+}
+
+#leftctl {
+height: 300px;
+width: 500px;
+background-color: red;
+background-image: url(../img/pb-2-2.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#rightctl {
+    height: 300px;
+    width: 600px;
+    background-color: blue;
+    background-image: url(../img/pb-2-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    }
