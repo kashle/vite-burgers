@@ -21,3 +21,21 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
    
     }
+
+.item-code {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 7px 8px;
+    color: #fff;
+    font-size: medium;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: -0;
+    margin-bottom: 0%;
+    -webkit-border-raduis: 6px;
+    -moz-border-raduis: 6px;
+    border-radius: 10px;
+
+
+}   
