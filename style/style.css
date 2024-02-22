@@ -109,7 +109,8 @@ padding: 90px;
     -webkit-border-raduis: 6px;
     -moz-border-raduis: 6px;
     border-radius: 10px;
-    background-color: lightgray;
+    background-color:  rgba(20, 20, 20, .45);
+    align-items: center;
     
 
 }   
@@ -135,4 +136,22 @@ padding: 90px;
     color: #F7BE27;
 
     
+}
+
+.menu-6-img .menu-img-zoom {
+    bottom: 250px;
+    left: 15px;
+}
+.menu-img-zoom {
+    display: grid;
+    position: absolute;
+    width: 34px;
+    height: 33px;
+    text-align: center;
+    background-color: rgba(20, 20, 20, .45);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+   place-items: center !important;
+   f
 }
