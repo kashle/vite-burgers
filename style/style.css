@@ -12,6 +12,77 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 
+.row {
+padding: 90px;
+}
+
+.left-con-details {
+    border: none  solid black;
+    padding: 60px;
+    padding-right: 0;
+    margin: 20px 10px 20px 10px;
+    text-align: right;
+    align-content: center;
+
+    h4 {
+        color: #6F5E4D;
+        line-height: 1;
+        margin-bottom: 10px ;
+        font-size: 2.25rem;
+        font-family:"Oswald", sans-serif ;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        
+
+    }
+
+    h5 {
+        color: #6F5E4D;
+        line-height: 1;
+        margin-bottom: 10px;
+        font-size: 2.375rem;
+        font-weight: 500;
+        font-family:"Oswald", sans-serif ;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        
+
+    }
+}
+
+.right-con-details {
+    border: none  solid black;
+    padding: 60px;
+    padding-right: 0;
+    margin: 20px 10px 20px 10px;
+    text-align: right;
+
+    h4 {
+        color: #6F5E4D;
+        line-height: 1;
+        margin-bottom: 10px ;
+        font-size: 2.25rem;
+        font-family:"Oswald", sans-serif ;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        
+
+    }
+
+    h5 {
+        color: #6F5E4D;
+        line-height: 1;
+        margin-bottom: 10px;
+        font-size: 2.375rem;
+        font-weight: 500;
+        font-family:"Oswald", sans-serif ;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        
+
+    }
+}
+
 #rightctl {
     height: 300px;
     width: 600px;
@@ -19,6 +90,8 @@ background-repeat: no-repeat;
     background-image: url(../img/pb-2-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 30px;
+
    
     }
 
@@ -36,6 +109,30 @@ background-repeat: no-repeat;
     -webkit-border-raduis: 6px;
     -moz-border-raduis: 6px;
     border-radius: 10px;
-
+    background-color: lightgray;
+    
 
 }   
+
+.fa-sharp {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    padding: 7px 8px;
+    color:black;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 10px;
+
+
+}
+
+.item-rating {
+    border: none;
+    padding: 20px 4px;
+    padding-right: 120px;
+    padding-bottom: -100px;
+    color: #F7BE27;
+
+    
+}
